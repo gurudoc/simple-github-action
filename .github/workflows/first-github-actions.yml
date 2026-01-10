@@ -3,8 +3,8 @@ on: [push]
 
 jobs: 
   run-shell-command:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Echo a String
         run: echo "Hello Security Gurus!!" This is our GitHub Actions Workflow file"
-        
+
